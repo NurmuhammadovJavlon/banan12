@@ -1,0 +1,90 @@
+@import 'fonts.css';
+:root {
+    --mr: 'Montserrat-Regular';
+    --mb: 'Montserrat-Bold';
+}
+
+/* ************************************************** */
+
+/* **********-----Start------**************** */
+
+.bg_color {
+    background: #007d2f;
+}
+
+.pdg {
+    padding: 110px 0;
+}
+
+/* *******----Section-----******* */
+
+.s_block {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.s_pdg {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.s_img {
+    width: 100%;
+}
+
+.s_imgBl {
+    position: relative;
+}
+
+.s_button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #42885d98;
+    border: none;
+    color: white;
+    font-size: 35px;
+    outline: none;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.s_imgBl:hover .s_button {
+    opacity: 1;
+}
+
+/* ***********FOOOOTER************** */
+.footer
+{
+    background: #141414;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.f_title
+{
+    color: #ffffff;
+    font-size: 17px;
+    font-family: var(--mr);
+}
+.f_text
+{
+    color: #bcbcbc;
+    font-size: 14px;
+    font-family: var(--mr);
+    font-weight: 400;
+}
+.footer_link
+{
+    color: #bcbcbc;
+    font-size: 14px;
+    font-family: var(--mr);
+    font-weight: 400;
+    transition: 0.5s;
+}
+.footer_link:hover
+{
+    color: white;
+    text-decoration: none;
+}
